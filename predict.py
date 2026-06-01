@@ -1,5 +1,7 @@
+from sklearn.datasets import load_iris
 import joblib
 
+iris = load_iris()
 model = joblib.load("flower_model.pkl")
 
 while True:
